@@ -1,0 +1,94 @@
+# DATA
+## HEADER
+headerText:
+  description: "Text to display in header"
+  value: "This is a header!"
+  group: "Data/Header"
+
+headerVisible:
+  description: "Show/Hide header"
+  value: true
+  group: "Data/Header"
+
+subheaderText:
+  description: "Text to display in subheader"
+  value: "This is a subheader!"
+  group: "Data/Header"
+
+subheaderVisible:
+  description: "Show/Hide subheader"
+  value: true
+  group: "Data/Header"
+
+# DATA
+## GHOSTS
+ghost1Visible:
+  description: "Show/Hide ghost 1"
+  value: true
+  group: "Data/Ghosts"
+
+ghost2Visible:
+  description: "Show/Hide ghost 2"
+  value: true
+  group: "Data/Ghosts"
+
+# STYLE
+## GENERAL
+backgroundColor:
+  type: color
+  description: "App screen background color"
+  value: "#ffffff"
+  group: "Style/General"
+
+ghostColor:
+  type: color
+  description: "Ghost color"
+  value: "#9E9E9E"
+  group: "Style/General"
+
+fabColor:
+  type: color
+  description: "FAB color"
+  value: "#03DAC5"
+  group: "Style/General"
+
+# STYLE
+## Header
+headerBackgroundColor:
+  type: color
+  description: "Header background color"
+  value: "#6200EE"
+  group: "Style/Header"
+
+headerTextAlignment:
+  type: list
+  values: [ "left", "center", "right" ]
+  group: "Style/Header"
+  selectedItemIndex: 1
+
+headerFontSize:
+  type: step
+  value: 36
+  step: 1
+  min: 24
+  max: 64
+  group: "Style/Header"
+  description: "header font size sp"
+
+subheaderFontSize:
+  type: range
+  min: 16
+  max: 32
+  value: 24
+  step: 1
+  group: "Style/Header"
+  description: "subheader font size in sp"
+
+# OTHER
+clearChanges:
+  type: action
+  description: "Reset"
+  buttonText: "Click me"
+  group: "Other"
+
+
